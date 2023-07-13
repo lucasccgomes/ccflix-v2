@@ -36,8 +36,8 @@ const Button = ({
                 text-white
                 `]: true,
                 [`
-                bg-bt-primary-red
-                hover:bg-bt-hover-red
+                bg-bt/primary/red
+                hover:bg-bt/hover/red
 
                 `]: variant === "primary",
                 [` 
