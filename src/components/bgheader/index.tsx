@@ -42,8 +42,9 @@ const BgHeader = ({ children }: BgHeaderProps) => {
         bg-img/efect
         bg-black/40
         "
-      ></div>
-      {children}
+      >
+        {children}
+      </div>
     </div>
   );
 };
