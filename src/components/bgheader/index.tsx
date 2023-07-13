@@ -43,7 +43,13 @@ const BgHeader = ({ children }: BgHeaderProps) => {
         bg-black/40
         "
       >
-        {children}
+        <div
+          className="flex
+        justify-center
+      "
+        >
+          {children}
+        </div>
       </div>
     </div>
   );
