@@ -1,11 +1,17 @@
+import { ReactNode } from "react";
 import ImgHeader from "../../assets/img/bg-header.jpg";
 
-const BgHeader = () => {
+interface BgHeaderProps {
+  children: ReactNode;
+}
+
+const BgHeader = ({ children }: BgHeaderProps) => {
   return (
     <div
       className="w-full 
     relative
     min-h-[560px]
+    max-h-[686px]
     max-sm:min-h-[486px]
     overflow-hidden
     "
@@ -37,6 +43,7 @@ const BgHeader = () => {
         bg-black/40
         "
       ></div>
+      {children}
     </div>
   );
 };
