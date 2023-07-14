@@ -1,3 +1,5 @@
+import { Assine } from "../assine";
+
 export const InfHome = () => {
   return (
     <div
@@ -36,6 +38,7 @@ export const InfHome = () => {
         >
           Assista onde quiser. Cancele quando quiser.
         </p>
+        <Assine />
       </div>
     </div>
   );
