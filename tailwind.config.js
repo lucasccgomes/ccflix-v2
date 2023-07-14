@@ -12,6 +12,7 @@ export default {
 
     },
     colors: {
+      "black":"#000",
       "black/40":"rgb(0 0 0 / 40%)",
       "white":"#fff",
       "bt/hover/red":"#C11119",
