@@ -29,7 +29,7 @@ const BgHeader = ({ children }: BgHeaderProps) => {
         max-sm:transform-none
         max-sm:h-full
         max-sm:object-cover
-        max-sm:min-h-[486px]
+        max-sm:min-h-[601px]
         "
       />
       <div
