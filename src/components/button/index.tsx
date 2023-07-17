@@ -24,6 +24,9 @@ const Button = ({
         <button
             className={classNames({
                 [`
+                h-full
+                w-full
+                justify-center
                 inline-flex 
                 py-2 
                 px-4 
