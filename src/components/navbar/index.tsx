@@ -1,5 +1,5 @@
-import Logo from '../../assets/img/logo-ccflix.png'
-import Button from '../button';
+import Logo from "../../assets/img/logo-ccflix.png";
+import Button from "../button";
 
 export const Navbar = () => {
   return (
@@ -17,8 +17,10 @@ export const Navbar = () => {
     pb-5
     "
     >
-      <img className='max-w-[138px]' src={Logo} alt="" />
-      <Button>Entrar</Button>
+      <img className="max-w-[138px]" src={Logo} alt="" />
+      <div>
+        <Button>Entrar</Button>
+      </div>
     </div>
   );
 };
