@@ -38,7 +38,9 @@ export const InfHome = () => {
         >
           Assista onde quiser. Cancele quando quiser.
         </p>
-        <Assine />
+        <div>
+          <Assine />
+        </div>
       </div>
     </div>
   );
