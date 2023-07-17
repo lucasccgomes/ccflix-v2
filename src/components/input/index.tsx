@@ -1,11 +1,13 @@
 export default function InInput() {
   return (
-    <div className="w-72 m-auto mt-2">
+    <div className="m-0">
       <div
         className="relative
-      h-10 
+        flex
+      h-14 
       w-full 
-      min-w-[200px]
+      min-w-[400px]
+      max-sm:min-w-[100%]
       "
       >
         <input
@@ -27,11 +29,12 @@ export default function InInput() {
         />
         <label
           className="
-        pointer-events-none 
+        pointer-events-none
+        text-gray/100
         absolute 
-        left-0 
-        -top-3.5
-        flex 
+        left-1
+        top-1
+        flex
         h-full 
         w-full 
         select-none 
@@ -39,8 +42,8 @@ export default function InInput() {
         font-normal 
         transition-all 
         before:w-2
-        peer-placeholder-shown:text-sm 
-        peer-placeholder-shown:leading-[4.6] 
+        peer-placeholder-shown:text-sm
+        peer-placeholder-shown:leading-[4.5] 
         peer-focus:text-[11px] 
         peer-focus:leading-tight         
         "
