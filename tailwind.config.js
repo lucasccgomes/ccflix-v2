@@ -12,11 +12,13 @@ export default {
 
     },
     colors: {
+      "gray/100":"#A7A5A5",
       "black":"#000",
       "black/40":"rgb(0 0 0 / 40%)",
       "white":"#fff",
       "bt/hover/red":"#C11119",
       "bt/primary/red":"#E50914"
+
     },
   },
   plugins: [],
