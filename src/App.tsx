@@ -7,13 +7,15 @@ import { Navbar } from './components/navbar'
 function App() {
 
   return (
-    <>
+    <div className='bg-black'>
       <BgHeader>
         <Navbar />
         <InfHome />
       </BgHeader>
+      <div className='mt-3'>
         <Aptv />
-    </>
+        </div>
+    </div>
   )
 }
 

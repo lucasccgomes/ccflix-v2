@@ -7,18 +7,26 @@ export const Aptv = () => {
       justify-center
     m-auto
     max-w-[83%]
+    max-lg:flex-col
+    max-lg:items-center
+  
     "
     >
       <div
         className=" text-white
         flex
+        
         flex-col
         justify-center
       max-w-[521px]
       "
       >
         <h2
-          className="text-5xl
+          className="text-[4vw]
+        max-lg:text-[4.2vw]
+        max-md:text-[4.3vw]
+        max-sm:text-[4vw]
+        max-lg:text-center
         font-black
         mb-5
         "
@@ -26,7 +34,11 @@ export const Aptv = () => {
           Aproveite na TV
         </h2>
         <p
-          className="text-2xl
+          className="text-[2vw]
+          max-lg:text-[2.3vw]
+          max-md:text-[2.6vw]
+          max-sm:text-[2.5vw]
+          max-lg:text-center
         font-normal
         "
         >
@@ -40,6 +52,7 @@ export const Aptv = () => {
       flex
       max-w-[533px]
       z-[2]
+     
       "
       >
         <picture>
