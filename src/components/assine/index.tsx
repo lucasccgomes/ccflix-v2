@@ -5,7 +5,10 @@ import { AiOutlineRight } from "react-icons/ai";
 export const Assine = () => {
   return (
     <>
-      <h3 className="mb-3">
+      <h3 className="mb-3 text-[1.3vw]
+       max-lg:text-[1.9vw]
+       max-md:text-[2.3vw]
+       max-sm:text-[2.9vw]">
         Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.
       </h3>
       <div
@@ -16,7 +19,7 @@ export const Assine = () => {
     max-sm:flex-col
     "
       >
-        <div className="max-sm:w-[300px]">
+        <div className="max-sm:w-[100%]">
           <InInput />
         </div>
         <div
@@ -27,7 +30,9 @@ export const Assine = () => {
         "
         >
           <Button iconright={<AiOutlineRight />}>
-            <p className="text-[1.5rem]"> Vamos lá</p>
+            <p className="text-[1.5rem]
+            
+            "> Vamos lá</p>
           </Button>
         </div>
       </div>

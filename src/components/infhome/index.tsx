@@ -6,6 +6,7 @@ export const InfHome = () => {
       className="min-w-[112rem]
     max-lg:min-w-[20rem]
     mt-[14rem]
+
     flex
     flex-col
     text-white
@@ -22,16 +23,20 @@ export const InfHome = () => {
       "
       >
         <h1
-          className="text-[3rem]
-        max-lg:text-[2.5rem]
-        max-md:text-[2rem]
+          className="text-[4vw]
+          max-lg:text-[4.9vw]
+          max-md:text-[4.3vw]
+          max-sm:text-[4.9vw]
         font-extrabold
         "
         >
           Filmes, séries e muito mais, sem limites
         </h1>
         <p
-          className="text-[1.5rem]
+          className="text-[2vw]
+        max-lg:text-[1.9vw]
+        max-md:text-[2.3vw]
+        max-sm:text-[2.9vw]
         font-medium
         text-center
         "

@@ -1,12 +1,22 @@
 import './App.css'
+import { Aptv } from './components/aptv'
+import { Assine } from './components/assine'
+import BgHeader from './components/bgheader'
+import Button from './components/button'
+import { InfHome } from './components/infhome'
+import InInput from './components/input'
+import { Navbar } from './components/navbar'
 
 function App() {
 
   return (
     <>
-     <h1 className="text-3xl text-center font-bold">
-      Hello World!
-     </h1>
+      <BgHeader>
+        <Navbar />
+        <InfHome />
+     
+      </BgHeader>
+        <Aptv />
     </>
   )
 }

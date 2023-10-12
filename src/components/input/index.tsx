@@ -1,13 +1,14 @@
 export default function InInput() {
   return (
-    <div className="m-0">
+    <div className="m-0 
+      flex 
+      justify-center ">
       <div
         className="relative
         flex
       h-14 
-      w-full 
-      min-w-[400px]
-      max-sm:min-w-[100%]
+      w-full
+      max-sm:w-[90%]
       "
       >
         <input
